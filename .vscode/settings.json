@@ -1,0 +1,30 @@
+{
+  // Editor tab size (PyTorch uses 4 spaces)
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "editor.formatOnSave": true,
+  "jupyter.kernels.excludePythonEnvironments": [
+    "/usr/bin/python",
+    "/usr/bin/python3.10",
+    "/usr/bin/python3",
+  ],
+  "black-formatter.args": [
+    "--line-length",
+    "120",
+    "--skip-string-normalization"
+  ],
+  "black-formatter.path": [
+    "/home/vir/Triton/.venv/bin/black"
+  ],
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.shellIntegration.enabled": true,
+  "python.pipenvPath": "/home/vir/Triton/.venv",
+  "python.defaultInterpreterPath": "/home/vir/Triton/.venv/bin/python",
+  "files.autoSave": "onFocusChange",
+  "black-formatter.interpreter": [
+    "/home/vir/Triton/.venv/bin/python"
+  ],
+}
